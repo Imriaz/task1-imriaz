@@ -18,8 +18,8 @@ const Navigation = () => {
                         >
                             <Nav.Link href="#action1">Home</Nav.Link>
                             <Nav.Link href="#action2">Places</Nav.Link>
-                            <Nav.Link href="#action2">Mountain</Nav.Link>
-                            <Nav.Link href="#action2">Contact Us</Nav.Link>
+                            <Nav.Link href="#action3">Mountain</Nav.Link>
+                            <Nav.Link href="#action4">Contact Us</Nav.Link>
 
                         </Nav>
                         <Form className="d-flex">
