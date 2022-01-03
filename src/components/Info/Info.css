@@ -1,0 +1,24 @@
+.showMore-button {
+        background-color: gray;
+        border-radius: 50px;
+        color: white;
+        font-weight: 700;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+}
+
+.card{
+    margin-top: 30px;
+    width: 300px;
+    height: 500px;
+    color: white;
+    background-color: gray;
+}
+
+.info-img {
+    width: 300px;
+    height: 300px;
+    margin:0px;
+}
