@@ -6,10 +6,10 @@ const Footer = () => {
         <div className="bg-secondary top-bottom-footer-space">
             <div class="row">
                 <div class="col-6 text-light footer-icon">
+                    <i class="fab fa-chrome mx-1"></i>
                     <i class="fab fa-facebook mx-1"></i>
-                    <i class="fab fa-facebook mx-1"></i>
-                    <i class="fab fa-facebook mx-1"></i>
-                    <i class="fab fa-facebook mx-1"></i>
+                    <i class="fab fa-twitter mx-1"></i>
+                    <i class="fab fa-firefox-browser mx-1"></i>
                 </div>
                 <div class="col-2 text-light">
                     About <br />

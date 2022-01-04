@@ -13,3 +13,10 @@
     margin:0;
     margin-bottom: 100px;
 }
+
+.hiking-textCenter {
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+  }

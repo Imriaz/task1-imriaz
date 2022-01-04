@@ -22,3 +22,10 @@
     height: 300px;
     margin:0px;
 }
+
+.info-textCenter {
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+  }

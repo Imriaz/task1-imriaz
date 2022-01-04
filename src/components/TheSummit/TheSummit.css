@@ -29,3 +29,10 @@
     margin-top: 50px;
     margin-bottom: 50px;
  }
+
+ .textCenter {
+   justify-content: center;
+   align-items: center;
+   margin-left: 250px;
+   margin-right: 250px;
+ }

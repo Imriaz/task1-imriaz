@@ -9,8 +9,8 @@ const Info = () => {
     return (
         <div>
             <h1 className='text-warning'>LET'S GO</h1>
-            <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim laudantium minima tempora adipisci? Quam distinctio dicta voluptatibus natus voluptatem minus placeat asperiores perspiciatis odit ullam, dolor esse nam tempora illum atque veritatis unde architecto rem soluta rerum sunt quasi.</p>
-            <div className="container">
+            <p className='info-textCenter'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim laudantium minima tempora adipisci? Quam distinctio dicta voluptatibus natus voluptatem minus placeat asperiores perspiciatis odit ullam, dolor esse nam tempora illum atque veritatis unde architecto rem soluta rerum sunt quasi.</p>
+            <div className="container me-5">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card">
