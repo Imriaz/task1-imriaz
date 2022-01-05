@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div className='banner-section'>
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6">
                     <div className='banner-text'>
                         <h1 className='text-warning'>IT'S TIME FOR HIKING</h1>
                         <br />
@@ -17,7 +17,7 @@ const Banner = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci doloremque sunt facilis distinctio deserunt voluptates ab blanditiis ut illo ad aspernatur et qui nihil, impedit rerum necessitatibus cupiditate assumenda ex officia incidunt reprehenderit soluta neque.</p>
                     </div>
                 </div>
-                <div class="col-6"><img className='banner-img' src={img} alt='Banner' /></div>
+                <div class="col-md-6"><img className='banner-img' src={img} alt='Banner' /></div>
             </div>
         </div>
     );
