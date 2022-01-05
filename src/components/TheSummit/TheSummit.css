@@ -44,6 +44,33 @@
        align-items: center;
        text-align: center;
        margin-left: 20px;
-   margin-right: 20px;
+       margin-right: 20px;
      }
+
+     .subscribe-form {
+        display: flex;
+      flex-direction: column;
+   }
+
+   .subscribe-input {
+      padding: 3px;
+      border-radius: 10px;
+      text-align: center;
+      margin:auto;
+      width: 250px;
+   }
+  
+  .subscribe-btn {
+      border: none;
+      outline: none;
+      background: transparent;
+      background-color: gray;
+      padding: 5px;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 100px;
+      margin:auto;
+   }
+
    }
