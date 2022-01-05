@@ -29,3 +29,14 @@
     margin-left: 250px;
     margin-right: 250px;
   }
+
+  @media only screen and (max-width: 688px) {
+   
+    .info-textCenter {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 20px;
+    margin-right: 20px;
+      }
+    }
