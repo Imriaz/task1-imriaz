@@ -1,21 +1,17 @@
 import React from 'react';
 import './Navigation.css';
-import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Button, Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import logo from '../../../images/logo.png'
 
 const Navigation = () => {
     return (
-        <section>
-            <Navbar bg="light" expand="lg">
+        <div>
+            <Navbar className='navbar-color' bg='light' collapseOnSelect expand="lg">
                 <Container fluid>
                     <Navbar.Brand href="#"><img className='Logo' src={logo} alt='' /></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="navbarScroll" />
-                    <Navbar.Collapse id="navbarScroll">
-                        <Nav
-                            className="ms-auto my-2 mx-4 my-lg-0"
-                            style={{ maxHeight: '100px' }}
-                            navbarScroll
-                        >
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="ms-auto">
                             <Nav.Link href="#action1">Home</Nav.Link>
                             <Nav.Link href="#action2">Places</Nav.Link>
                             <Nav.Link href="#action3">Mountain</Nav.Link>
@@ -34,7 +30,7 @@ const Navigation = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </section>
+        </div>
 
     );
 };

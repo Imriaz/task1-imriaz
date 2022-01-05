@@ -13,7 +13,7 @@ const Info = () => {
             <div className="container me-5">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card">
+                        <div class="card mx-auto">
                             <img src={img1} class="card-img-top info-img" alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">Mountain Travel, Bangladesh</h5>
@@ -22,7 +22,7 @@ const Info = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card">
+                        <div class="card mx-auto">
                             <img src={img2} class="card-img-top info-img" alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">Mountain Travel, Germany</h5>
@@ -31,7 +31,7 @@ const Info = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card">
+                        <div class="card mx-auto">
                             <img src={img3} class="card-img-top info-img" alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">Mountain Travel, India</h5>

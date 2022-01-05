@@ -7,8 +7,8 @@ const Details = () => {
     return (
         <div>
             <div class="row">
-                <div class="col-6"><img src={img1} className='details-img' alt='' /></div>
-                <div class="col-6 bg-secondary details-section">
+                <div class="col-md-6"><img src={img1} className='details-img' alt='' /></div>
+                <div class="col-md-6 bg-secondary details-section">
                     <div className='details-text'>
                         <h1>Discount up to 50% All Excursions</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci doloremque sunt facilis distinctio deserunt voluptates ab blanditiis ut illo ad aspernatur et qui nihil, impedit rerum necessitatibus cupiditate assumenda ex officia incidunt reprehenderit soluta neque.</p>
@@ -19,7 +19,7 @@ const Details = () => {
             </div>
 
             <div class="row">
-                <div class="col-6 bg-warning details-section">
+                <div class="col-md-6 bg-warning details-section">
                     <div className='details-text'>
                         <h1>Friends & Family</h1>
                         <br />
@@ -28,7 +28,7 @@ const Details = () => {
                         <button className='btn details-button'>READ MORE</button>
                     </div>
                 </div>
-                <div class="col-6"><img className='details-img' src={img2} alt='' /></div>
+                <div class="col-md-6"><img className='details-img' src={img2} alt='' /></div>
             </div>
         </div >
     );
